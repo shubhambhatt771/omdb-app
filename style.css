@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 10px 0;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+#movies-box img {
+    height: 300px;
+    object-fit: cover;
+}
+
+#movie-info-card {
+    width: 1000px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#movie-info-card:hover {
+    scale: 1.01;
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -ms-transition: ease-in-out;
+    -o-transition: ease-in-out;
+}
+
+#movie-info-card img {
+    object-fit: cover;
+}
+
+#logo {
+    width: 70px;
+    height:30px;
+    object-fit: cover;
+    text-decoration: none;
+}
+
+#logo span {
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+    padding: 0 2px;
+    font-size: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#info-wrapper {
+    position: relative;
+    height: 100% !important;
+}
+
+#favourite-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#search-btn {
+    background-color: white;
+    color: black;
+
+}
